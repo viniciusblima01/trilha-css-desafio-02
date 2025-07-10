@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YouTube</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header class="header">
+    <a href="https://www.youtube.com/" target="_blank">
+  <img src="images/youtube logo.png" alt="YouTube" class="logo" />
+</a>
+<form action="https://www.youtube.com/results" method="get" target="_blank" class="youtube-search">
+  <input 
+    type="text" 
+    name="search_query" 
+    placeholder="Pesquisar" 
+    class="search-input"
+  />
+  <div class="search-icons">
+    <button type="button" class="keyboard-icon" aria-label="Teclado virtual">
+      <img src="images/keyboard-icon.png" alt="Teclado" />
+    </button>
+    <button type="submit" class="search-button" aria-label="Pesquisar">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="20" viewBox="0 0 24 24" width="20">
+        <path clip-rule="evenodd" d="M16.296 16.996a8 8 0 11.707-.708l3.909 3.91-.707.707-3.909-3.909zM18 11a7 7 0 00-14 0 7 7 0 1014 0z" fill-rule="evenodd"/>
+      </svg>
+    </button>
+  </div>
+</form>
+
+
+    <div class="header-icons">
+      <img src="images/bell.png" alt="Notifications" />
+      <img src="images/video.png" alt="Create Video" />
+      <img src="images/Avatar.png" alt="User Avatar" class="avatar" />
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="main-video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/zGPS2BilrJI?si=1R1de9_DEYcaR_Po"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <h2 class="video-title">
+        TUDO o que um DESENVOLVEDOR FRONT-END deve saber! | Getting Started #23
+
+      </h2>
+
+      <div class="channel-section">
+        <img src="images/logo avatar.jpg" alt="DIO Channel Logo" class="channel-logo" />
+        <div class="channel-info">
+          <strong>DIO</strong>
+          <small>122 mil inscritos</small>
+          <button class="subscribe-btn">Inscreva-se</button>
+        </div>
+      </div>
+
+      <div class="interactions">
+        <button><img src="images/Like.png" alt="Like" /></button>
+        <button><img src="images/Deslike.png" alt="Dislike" /></button>
+        <button><img src="images/Share.png" alt="Share" /></button>
+        <button><img src="images/Download.png" alt="Download" /></button>
+      </div>
+
+      <div class="video-description">
+        <strong>8.441 visualizações Estreou em 8 de ago. de 2022</strong>
+        <p>
+          Bora falar de front-end?<br>
+          No Getting Started de hoje, o Felipão trouxe pouco sobre os fundamentos e por onde começar a sua jornada na
+          área.
+          Seja com HTML, CSS ou Javascript, criar páginas e apps lindões vai ficar ainda mais simples! 😎<br><br>
+
+          Ah, sempre bom lembrar que dev front-end não apenas aplica estilo à uma aplicação, nem é um designer...há
+          muitas outras funções que envolvem este setor da tecnologia.<br>
+
+          👉 Vamos entender por onde começar;<br>
+          👉 Quais as oportunidades de mercado para front-end;<br>
+          👉 E como evitar de postergar na criação do seu portfólio no GitHub.<br>
+<br>
+          Já deixe seu like e comente aqui embaixo o que mais você gostaria de saber sobre front-end!<br>
+<br>
+          Ah, e não se esqueça de deixar seu like 👍🏻, ativar o 🔔!
+        </p>
+      </div>
+    </section>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+
+        <div class="side-video">
+        <img src="images/ciencia de dados unimed.png" alt="Unimed Data Science Thumbnail" class="side-thumbnail" />
+        <div class="side-info">
+          <strong>Unimed BH Data Science</strong>
+          <small>DigitalInnovationOne</small><br />
+          <small>1.5K views · 3 days ago</small>
+        </div>
+      </div>
+
+      <div class="side-video">
+        <img src="images/scrum talks.png" alt="Scrum Talks Thumbnail" class="side-thumbnail" />
+        <div class="side-info">
+          <strong>Scrum Talks</strong>
+          <small>DigitalInnovationOne</small><br />
+          <small>2.1K views · 2 days ago</small>
+        </div>
+      </div>
+
+    
+
+      <div class="side-video">
+        <img src="images/fast track.png" alt="Fast Track Thumbnail" class="side-thumbnail" />
+        <div class="side-info">
+          <strong>Advanced Machine Learning - Fast Track</strong>
+          <small>DigitalInnovationOne</small><br />
+          <small>1.2K views · 4 days ago</small>
+        </div>
+      </div>
+
+      <div class="side-video">
+        <img src="images/python do zero.png" alt="Python From Scratch Thumbnail" class="side-thumbnail" />
+        <div class="side-info">
+          <strong>Learn Python from Scratch</strong>
+          <small>DigitalInnovationOne</small><br />
+          <small>2.9K views · 10 days ago</small>
+        </div>
+      </div>
+      <div class="side-video">
+        <img src="images/ciencia de dados unimed.png" alt="Unimed Data Science Thumbnail" class="side-thumbnail" />
+        <div class="side-info">
+          <strong>Unimed BH Data Science</strong>
+          <small>DigitalInnovationOne</small><br />
+          <small>1.5K views · 3 days ago</small>
+        </div>
+      </div>
+
+      <div class="side-video">
+        <img src="images/scrum talks.png" alt="Scrum Talks Thumbnail" class="side-thumbnail" />
+        <div class="side-info">
+          <strong>Scrum Talks</strong>
+          <small>DigitalInnovationOne</small><br />
+          <small>2.1K views · 2 days ago</small>
+        </div>
+      </div>
+
+    
+
+      <div class="side-video">
+        <img src="images/fast track.png" alt="Fast Track Thumbnail" class="side-thumbnail" />
+        <div class="side-info">
+          <strong>Advanced Machine Learning - Fast Track</strong>
+          <small>DigitalInnovationOne</small><br />
+          <small>1.2K views · 4 days ago</small>
+        </div>
+      </div>
+
+      <div class="side-video">
+        <img src="images/python do zero.png" alt="Python From Scratch Thumbnail" class="side-thumbnail" />
+        <div class="side-info">
+          <strong>Learn Python from Scratch</strong>
+          <small>DigitalInnovationOne</small><br />
+          <small>2.9K views · 10 days ago</small>
+        </div>
+      </div>
+      <div class="side-video">
+        <img src="images/ciencia de dados unimed.png" alt="Unimed Data Science Thumbnail" class="side-thumbnail" />
+        <div class="side-info">
+          <strong>Unimed BH Data Science</strong>
+          <small>DigitalInnovationOne</small><br />
+          <small>1.5K views · 3 days ago</small>
+        </div>
+      </div>
+
+      <div class="side-video">
+        <img src="images/scrum talks.png" alt="Scrum Talks Thumbnail" class="side-thumbnail" />
+        <div class="side-info">
+          <strong>Scrum Talks</strong>
+          <small>DigitalInnovationOne</small><br />
+          <small>2.1K views · 2 days ago</small>
+        </div>
+      </div>
+
+    
+
+      <div class="side-video">
+        <img src="images/fast track.png" alt="Fast Track Thumbnail" class="side-thumbnail" />
+        <div class="side-info">
+          <strong>Advanced Machine Learning - Fast Track</strong>
+          <small>DigitalInnovationOne</small><br />
+          <small>1.2K views · 4 days ago</small>
+        </div>
+      </div>
+
+      <div class="side-video">
+        <img src="images/python do zero.png" alt="Python From Scratch Thumbnail" class="side-thumbnail" />
+        <div class="side-info">
+          <strong>Learn Python from Scratch</strong>
+          <small>DigitalInnovationOne</small><br />
+          <small>2.9K views · 10 days ago</small>
+        </div>
+      </div>
+      
+    </aside>
+  </main>
+
+</body>
+
+</html>
